@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <!--<com.yuan.gusture.HorizontalFeatureScrollView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="horizontal">-->
+
+    <!--<TextView-->
+    <!--android:layout_width="130dp"-->
+    <!--android:layout_height="60dp"-->
+    <!--android:layout_margin="16dp"-->
+    <!--android:background="#aeaeae"-->
+    <!--android:gravity="center"-->
+    <!--android:text="测试" />-->
+
+    <!--<TextView-->
+    <!--android:layout_width="130dp"-->
+    <!--android:layout_height="60dp"-->
+    <!--android:layout_margin="16dp"-->
+    <!--android:background="#aeaeae"-->
+    <!--android:gravity="center"-->
+    <!--android:text="测试" />-->
+
+    <!--<TextView-->
+    <!--android:layout_width="130dp"-->
+    <!--android:layout_height="60dp"-->
+    <!--android:layout_margin="16dp"-->
+    <!--android:background="#aeaeae"-->
+    <!--android:gravity="center"-->
+    <!--android:text="测试" />-->
+
+    <!--<TextView-->
+    <!--android:layout_width="130dp"-->
+    <!--android:layout_height="60dp"-->
+    <!--android:layout_margin="16dp"-->
+    <!--android:background="#aeaeae"-->
+    <!--android:gravity="center"-->
+    <!--android:text="测试" />-->
+    <!--</LinearLayout>-->
+
+
+    <!--</com.yuan.gusture.HorizontalFeatureScrollView>-->
+
+    <com.yuan.gusture.MyView
+        android:id="@+id/myView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary" />
+
+</android.support.constraint.ConstraintLayout>

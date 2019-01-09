@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.yuan.gusture.gesture.FixHeadLayout
+        android:id="@+id/fixHeadLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/head_layout"
+            layout="@layout/head_layout"></include>
+
+        <include layout="@layout/body_layout"></include>
+
+
+    </com.yuan.gusture.gesture.FixHeadLayout>
+
+</android.support.constraint.ConstraintLayout>

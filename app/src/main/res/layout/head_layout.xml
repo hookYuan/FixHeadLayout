@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/head_layout"
+    android:layout_width="match_parent"
+    android:layout_height="230dp"
+    android:background="#3d2c67"
+    android:clickable="true"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:text="Fix Header"
+    android:textColor="@android:color/white"
+    android:textSize="30sp">
+
+</TextView>
